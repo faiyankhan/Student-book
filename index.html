@@ -9,6 +9,25 @@
 </head>
 
 <body>
+    <div class="container">
+
+        <div class="left-container">
+            <h1>Student Book</h1>
+            <input type="text" id="studentName" placeholder="Student Name" required />
+            <input type="text" id="branch" placeholder="Branch" required />
+            <input type="number" id="rollNum" placeholder="Roll Number" required />
+            <input type="text" id="grade" placeholder="Grade" required />
+            <input type="number" id="cgpa" placeholder="Cgpa" required />
+            <button type="button" onclick="addStudent()">Add Student</button>
+        </div>
+
+        <div class="right-container">
+            <h3>Student List</h3>
+            <div class="card-container" id="cardContainer"></div>
+        </div>
+
+    </div>
     <script src="./scripts.js"></script>
-</body >
-</html >
+</body>
+
+</html>
