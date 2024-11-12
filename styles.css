@@ -6,7 +6,7 @@
 
 body {
     padding: 20px;
-    background-color: #160936;
+    background-color: #809fff;
     font-family: Arial, sans-serif;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .left-container input:focus {
-    outline: 2px solid #ffd311;
+    outline: 2px solid #ff3333;
 }
 
 .left-container input:hover {
@@ -51,14 +51,15 @@ body {
     width: 100%;
     border: none;
     border-radius: 5px;
-    background-color: #ffd311;
-    color: #222222;
+    background-color:#ff3333;
+    color: #fff;
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.5s ease-out, transform 0.5s ease;
 }
 
 .left-container button:hover {
-    background-color: #eec511;
+    background-color: #ff3333;
     transform: scale(0.98);
 }
 
